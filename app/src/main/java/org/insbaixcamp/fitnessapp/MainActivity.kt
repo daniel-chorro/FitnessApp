@@ -60,8 +60,8 @@ fun FitnessApp() {
     var dataNaixement: Long by remember { mutableStateOf(946684800000) }
     var genere: String by remember { mutableStateOf("Dona") }
     var editant: Boolean by remember { mutableStateOf(false) }
-    var pes: Double by remember { mutableStateOf(60.0) }
-    var pesObjectiu: Double by remember { mutableStateOf(55.0) }
+    var pes: Double by remember { mutableStateOf(55.0) }
+    var pesObjectiu: Double by remember { mutableStateOf(50.0) }
     var alçada: Int by remember { mutableStateOf(170) }
     var objectiu: String by remember { mutableStateOf("Guanyar massa muscular") }
 
